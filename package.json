@@ -1,0 +1,14 @@
+{
+  "name": "seemta-discord-bot-full-buttons",
+  "version": "4.0.0",
+  "description": "SeeMTA v4 Discord taxi bot teljes gombos menüvel utas és admin panelhez",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT"
+}

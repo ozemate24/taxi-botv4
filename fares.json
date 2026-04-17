@@ -1,0 +1,50 @@
+{
+  "Tierra Robada": {
+    "Tierra Robada": 5000,
+    "San Fierro": 1800,
+    "Angel Pine": 4200,
+    "Flint County": 3600,
+    "Red County": 3000,
+    "Los Santos": 7600
+  },
+  "San Fierro": {
+    "Tierra Robada": 1800,
+    "San Fierro": 0,
+    "Angel Pine": 3000,
+    "Flint County": 2800,
+    "Red County": 2200,
+    "Los Santos": 6400
+  },
+  "Angel Pine": {
+    "Tierra Robada": 4200,
+    "San Fierro": 3000,
+    "Angel Pine": 0,
+    "Flint County": 1600,
+    "Red County": 3400,
+    "Los Santos": 4200
+  },
+  "Flint County": {
+    "Tierra Robada": 3600,
+    "San Fierro": 2800,
+    "Angel Pine": 1600,
+    "Flint County": 0,
+    "Red County": 2000,
+    "Los Santos": 2600
+  },
+  "Red County": {
+    "Tierra Robada": 3000,
+    "San Fierro": 2200,
+    "Angel Pine": 3400,
+    "Flint County": 2000,
+    "Red County": 0,
+    "Los Santos": 3200
+  },
+  "Los Santos": {
+    "Tierra Robada": 7600,
+    "San Fierro": 6400,
+    "Angel Pine": 4200,
+    "Flint County": 2600,
+    "Red County": 3200,
+    "Los Santos": 0
+  }
+}

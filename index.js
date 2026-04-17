@@ -21,7 +21,13 @@ const TOKEN = process.env.DISCORD_TOKEN;
 const PREFIX = process.env.BOT_PREFIX || '!';
 const PANEL_COMMAND = process.env.PANEL_COMMAND || 'taxi';
 const ADMIN_PANEL_COMMAND = process.env.ADMIN_PANEL_COMMAND || 'taxiadmin';
-const DATA_FILE = path.join(__dirname, 'fares.json');
+const DATA_DIR = process.env.RAILWAY_VOLUME_MOUNT_PATH || path.join(__dirname, 'data');
+
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
+const DATA_FILE = path.join(DATA_DIR, 'fares.json');
 
 if (!TOKEN) {
   console.error('Hiányzó DISCORD_TOKEN a .env fájlban.');
